@@ -1,0 +1,36 @@
+{
+  "name": "tong-webhook-notifier",
+  "version": "1.0.0",
+  "description": "A Node.js package for sending notifications to Slack via webhook",
+  "main": "public/ting.js",
+  "author": "AravindhRadhakrishnan",
+  "license": "MIT",
+  "keywords": [
+    "slack",
+    "webhook",
+    "notification"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SolocorpDeveloper/tong-webhook-notifier.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SolocorpDeveloper/tong-webhook-notifier/issues"
+  },
+  "homepage": "https://github.com/SolocorpDeveloper/tong-webhook-notifier#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "ting": "ts-node public/ting.ts"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.0",
+    "jest": "^27.0.6",
+    "typescript": "^4.5.4",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.2"
+  }
+}
