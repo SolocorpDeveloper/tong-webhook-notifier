@@ -4,12 +4,10 @@ const tongConfig: TongConfig = {
     default: "slack",
     config: {
         "slack": {
-            webhook_url: "https://hooks.slack.com/services/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"
-            // Add other Slack webhook configuration options if needed
+            webhook_url: process.env.SLACK_WEBHOOK_URL || "https://hooks.slack.com/services/slackid"
         },
         "google-chat": {
-            webhook_url: "https://your-google-chat-webhook-url"
-            // Add other Google Chat webhook configuration options if needed
+            webhook_url: process.env.GOOGLE_CHAT_WEBHOOK_URL || "https://your-google-chat-webhook-url"
         }
         // Add configuration for other webhook providers as needed
     }

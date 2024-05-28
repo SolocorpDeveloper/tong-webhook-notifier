@@ -1,9 +1,9 @@
 {
   "name": "tong-webhook-notifier",
   "version": "1.0.0",
-  "description": "A Node.js package for sending notifications to Slack via webhook",
-  "main": "public/ting.js",
-  "author": "AravindhRadhakrishnan",
+  "description": "A Node.js package for sending notifications to Slack/GoogleChat via webhook",
+  "main": "ting.js",
+  "author": "Solocorp",
   "license": "MIT",
   "keywords": [
     "slack",
@@ -22,7 +22,7 @@
     "node": ">=18"
   },
   "scripts": {
-    "ting": "ts-node public/ting.ts"
+    "ting": "ts-node ting.ts"
   },
   "devDependencies": {
     "@types/jest": "^27.0.0",
